@@ -1,0 +1,30 @@
+{
+  "name": "Agora Token Service",
+  "description": "an Agora Token Server using Golang & Gin to run as a webservice",
+  "repository": "https://github.com/AgoraIO-Community/agora-token-service",
+  "logo": "https://www.agora.io/en/wp-content/themes/agora-2020/images/agora-logo.svg",
+  "website": "http://www.agora.io",
+  "keywords": [ 
+    "agora", 
+    "Agora.io",
+    "DynamicKey",
+    "ChannelKey",
+    "RecordingKey",
+    "video",
+    "voice",
+    "communications",
+    "recording",
+    "ARS",
+    "token", "server", "go", "golang", "gin"
+  ],
+  "env": {
+    "APP_ID": {
+      "description": "31d1509ae84041a3aea294bdc107ce45",
+      "required": true
+    },
+    "APP_CERTIFICATE": {
+      "description": "1a798160dfd841e394aabad2d87710f2",
+      "required": true
+    }
+  }
+}
